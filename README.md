@@ -10,7 +10,7 @@ To use this application you need a web-server installed on your machine.
 
 ## Deployment
 
-This is tested only on localhost using XAMPP. Note that there are still broken files and the ```DocumentRoot``` of this app is still not yet completed. This application is not ready yet for unit testing until the files has been uploaded.
+This is tested only on localhost using XAMPP. Note that there are still broken files and the ```DocumentRoot``` of this app is still not yet completed and is currently under maintenance. 
 
 ## Built With
 
