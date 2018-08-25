@@ -4,7 +4,7 @@ A Point-of-Sale web application.
 
 ### Prerequisites
 
-To use this application you need a web-server installed on your machine.
+To use this application it is recommended to install XAMPP or any web server to your liking.
 
 [XAMPP](https://www.apachefriends.org/index.html)
 
