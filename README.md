@@ -12,7 +12,7 @@ https://www.apachefriends.org/index.html
 
 ## Deployment
 
-This is tested only on localhost using XAMPP. Note that I'm currently fixing the broken files and the ```DocumentRoot``` of this app. 
+This is tested only on localhost using XAMPP. Note that I'm currently fixing the broken files and the ```DocumentRoot``` of this app.
 
 ## Built With
 
