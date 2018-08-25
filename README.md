@@ -1,16 +1,16 @@
 # Computerized Point-of-Sale with Inventory system For 24 Beinte Quatro Minimart Co.
 
-A Point-of-Sale web application built with PHP
+A Point-of-Sale web application built with PHP.
 
 ### Prerequisites
 
-To use this application you need a web-server installed on your machine 
+To use this application you need a web-server installed on your machine.
 
 [XAMPP](https://www.apachefriends.org/index.html)
 
 ## Deployment
 
-This is tested only on localhost using XAMPP. Note that there are still broken files and the ```DocumentRoot``` of this app is still not yet completed. This application is not ready yet for unit testing until the files has been uploaded 
+This is tested only on localhost using XAMPP. Note that there are still broken files and the ```DocumentRoot``` of this app is still not yet completed. This application is not ready yet for unit testing until the files has been uploaded.
 
 ## Built With
 
