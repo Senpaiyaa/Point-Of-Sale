@@ -1,6 +1,6 @@
 # Computerized Point-of-Sale with Inventory system For 24 Beinte Quatro Minimart Co.
 
-A Point-of-Sale web application built with PHP.
+A Point-of-Sale web application.
 
 ### Prerequisites
 
@@ -15,6 +15,7 @@ This is tested only on localhost using XAMPP. Note that there are still broken f
 ## Built With
 
 * [PHP](http://php.net/) - PHP is a popular general-purpose scripting language that is especially suited to web development.
+* [Start Bootstrap - SB Admin 2](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2) - A free, open source, Bootstrap admin theme created by Start Bootstrap
 
 ## Authors
 
