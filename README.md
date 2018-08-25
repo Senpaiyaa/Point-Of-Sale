@@ -4,11 +4,15 @@ A Point-of-Sale web application built with PHP
 
 ### Prerequisites
 
-Use XAMPP to test this application
+Use XAMPP to use this application
 
 ```
 https://www.apachefriends.org/index.html
 ```
+
+## Deployment
+
+This is tested only on localhost using XAMPP. Note that I'm currently fixing the broken files and the DocumentRoot of this app. 
 
 ## Built With
 
