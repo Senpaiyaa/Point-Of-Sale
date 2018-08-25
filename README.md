@@ -16,7 +16,7 @@ https://www.apachefriends.org/index.html
 
 ## Authors
 
-* **Erwin Ignacio** - *Point of Sale* - [Senpaiyaa](https://github.com/Senpaiyaa)
+* **Erwin Ignacio** - [Senpaiyaa](https://github.com/Senpaiyaa)
 
 ## License
 
