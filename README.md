@@ -3,4 +3,4 @@ Computerized Point of Sale with Inventory System for 24 Beinte Quatro Minimart C
 
 A Point-of-Sale web application mainly uses PHP
 
-For educational purpose only
+For educational purposes
