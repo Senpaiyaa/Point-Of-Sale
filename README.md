@@ -4,10 +4,10 @@ A Point-of-Sale web application built with PHP
 
 ### Prerequisites
 
-Use XAMPP to use this application
+To use this application you need a web-server installed on your machine like
 
 ```
-https://www.apachefriends.org/index.html
+[XAMPP](https://www.apachefriends.org/index.html)
 ```
 
 ## Deployment
