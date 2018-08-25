@@ -6,9 +6,6 @@ A Point-of-Sale web application built with PHP
 
 To use this application you need a web-server installed on your machine 
 
-```
-XAMPP
-```
 [XAMPP](https://www.apachefriends.org/index.html)
 
 ## Deployment
