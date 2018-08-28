@@ -5,11 +5,12 @@ A Point-of-Sale web application.
 ### Prerequisites
 
 To use this application it is recommended to install XAMPP or any web server solution stack packages to your liking
+
 [XAMPP](https://www.apachefriends.org/index.html)
 
 ## Deployment
 
-This is tested only on localhost using XAMPP. Note that there are still broken files and the ```DocumentRoot``` of this app is still not yet completed and is currently under maintenance. 
+This is tested only on localhost using XAMPP. Note that there are still broken files and the ```DocumentRoot``` of this app is still not yet completed and is currently work in progress. 
 
 ## Built With
 
