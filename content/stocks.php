@@ -24,13 +24,10 @@
         $stock_id = $stock["stock_id"];
         $edit = '<center><a id="edit" class="pointer" href="save_stock.php?stock_id='.$stock_id.'"><span class="glyphicon glyphicon-pencil"></span> Edit</a></center>';
         $delete = '<a class="pointer pull-right link-red" style="margin-left: 15px;" onclick="show_delete_modal('.$stock_id.')"><span class="glyphicon glyphicon-trash"></span> Delete</a>';
-        // $expiry = isset($stock["product_expiration"]) ? $stock["product_expiration"] : "Not set";
         $expiry = $stock["product_expiration"];
         $check_qty = null;
         $item = null;
         $html = '';
-
-        // debug($expiry);
 
         if ($expiry === '0000-00-00') {
             $expiry = "Not set";
@@ -39,17 +36,7 @@
         }   
 
         $product = $product_db->get_product($stock['product_id']);
-        // $quantity = $stocks_db->quantity_sum($stock['product_id']);
         $quantity = $stock['product_quantity'];
-//         if ($quantity <= 5) {
-//             $item = '<td class="product_name text-center text-warning">'.$product["product_name"].'</td>
-// ';
-//             $check_qty = '<td class="product_quantity text-center text-warning">' . $quantity . '</td>';
-//         } else {
-//             $item = '<td class="product_name text-center">'.$product["product_name"].'</td>
-// ';
-//             $check_qty = '<td class="product_quantity text-center">' . $quantity . '</td>';
-//         }
 
         if ($quantity < 6) {
             $item = '<td class="product_name text-center"><a href="view_stocks.php?stock_id='.$stock_id.'">'.$product["product_name"].'</a></td>
@@ -121,8 +108,6 @@
     $selected_field = isset($_GET["field_to_find"]) ? escape($_GET["field_to_find"]) : "";
     if (isset($_GET["advance_search"])) {
         $search_this_item = escape($_GET["item_to_search"]);
-        // $selected_field = escape($_GET["field_to_find"]);
-
         if (escape($_GET["field_to_find"]) == "Stock ID") {
             $search_this_item = (int) isset($_GET["item_to_search"]) ? escape($_GET["item_to_search"]) : null;
             $search_query = $stocks_db->stock_search_by_id($search_this_item);
@@ -189,12 +174,6 @@
                                 <a href="save_stock.php" class="btn btn-primary hidden-sm hidden-xs" id="btnAddItem">
                                     <span>New Stock</span>
                                 </a>
-                                <!-- <a class="btn btn-more dropdown-toggle item_config" type="button" data-toggle="dropdown" aria-expanded=false>
-                                    <i class="glyphicon glyphicon-list"></i>
-                                </a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>test</li>
-                                </ul> -->
                                 <ul class="nav navbar-right item_config">
                                     <li class="dropdown pull-right">
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
