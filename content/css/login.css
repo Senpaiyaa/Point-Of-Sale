@@ -1,0 +1,40 @@
+html, body { background: #f9f9f9; /*background-color: #2fa1da;*/ }	
+
+.container-fluid {
+	margin-top: 100px;
+	padding: 15px;
+}
+
+.panel-heading h1 {
+	font-size: 19px;
+}
+
+[class^="icon-"],
+[class*="icon-"] {
+	display: inline-block;
+	width: 100%;
+}
+
+div i {
+	text-align: center;
+	/*font-size: 50em;*/
+}
+
+.footer .footer {
+	margin-top: 50px;
+	font-size: 15px;
+}
+
+#login_form .btn {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login {
+	color: #333;
+}
