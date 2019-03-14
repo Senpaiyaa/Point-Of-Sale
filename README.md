@@ -1,7 +1,6 @@
 # Computerized Point-of-Sale with Inventory system For 24 Beinte Quatro Minimart Co.
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![repo size](https://img.shields.io/github/repo-size/badges/shields.svg)](#)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 ![Dashboard](https://media.discordapp.net/attachments/487248191859720193/493041417401401346/dashboard.JPG?width=1249&height=598)
 
