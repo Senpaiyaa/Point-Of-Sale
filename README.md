@@ -4,8 +4,6 @@
 
 ![Dashboard](https://media.discordapp.net/attachments/487248191859720193/493041417401401346/dashboard.JPG?width=1249&height=598)
 
-A POS Web App
-
 ### Prerequisites
 
 To use this application it is recommended to install XAMPP or any web server solution stack packages to your liking
