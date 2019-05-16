@@ -12,7 +12,7 @@ To use this application it is recommended to install XAMPP or any web server sol
 
 ## Deployment
 
-This is tested only on localhost using XAMPP. Note that there are still broken files and the ```DocumentRoot``` of this app is still not yet completed and is currently work in progress. 
+This is still a work in-progress. Will update this ```readme``` sometime soon. :) 
 
 ## Built With
 
